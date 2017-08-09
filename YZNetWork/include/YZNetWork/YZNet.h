@@ -15,7 +15,7 @@ typedef void(^NetOFF)();
 +(instancetype)YZ;
 
 -(void)isPost:(BOOL)isPost url:(NSString*)url withData:(NSDictionary*)dic withSucess:(Success)sucess withFalie:(Failuer)falie andNetOFF:(NetOFF)NetOff;
-+(void)upload:(NSString*)url andParameters:(NSDictionary*)parameters andData:(NSArray*)imgArray andImageName:(NSArray*)nameArray andKey:(NSString*)key andStatue:(Statue)Statue;
+-(void)upload:(NSString*)url andParameters:(NSDictionary*)parameters andImage:(UIImage*)img andImageName:(NSString*)name andFileKey:(NSString*)key andStatue:(Success)Statue andNetOFF:(NetOFF)NetOff;
 
 @end
 
