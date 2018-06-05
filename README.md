@@ -54,3 +54,5 @@ TARGETS->Build Settings->Other Linker Flags 添加一个  -ObjC
 最后一个是没有网络的情况
 
 
+# 记得让App允许访问HTTP
+
